@@ -16,3 +16,6 @@ def transcribe_audio(audio_path):
     transcription = asr_pipeline(audio_path)
 
     return transcription["text"]
+
+def test():
+    pass
